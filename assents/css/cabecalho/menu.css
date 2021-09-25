@@ -1,0 +1,11 @@
+.menu {
+    text-align: center;
+}
+
+.menu__lista {
+    list-style: none;
+}
+
+.menu__link {
+    display: inline-block;
+}
