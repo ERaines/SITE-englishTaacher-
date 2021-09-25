@@ -1,5 +1,7 @@
 .menu {
     text-align: center;
+    line-height: 1.5rem;
+    text-shadow: 0 0 8px #FEFEFE;
 }
 
 .menu__lista {
