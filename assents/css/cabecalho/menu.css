@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+.menu__intens {
+    padding: 1rem 0 0 0;
+}
+
 .menu__link {
     display: inline-block;
 }
