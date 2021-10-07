@@ -1,0 +1,21 @@
+.vantagens {
+
+    width: calc (100vw - 12%);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.vantagens__itens {
+    color: #FEFEFE;
+    background: #040912;
+    text-align: center;
+    margin: .75rem auto;
+    width: 80%;
+    height: 80vw;
+    border-radius: 3px;
+    box-shadow: 0 15px 20px #071224;
+}
