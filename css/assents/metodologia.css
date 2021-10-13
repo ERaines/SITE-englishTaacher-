@@ -40,3 +40,21 @@
 .metodologia__card--texto {
     padding: .50rem .75rem 1rem .75rem;
 }
+
+@media screen and (min-width: 768px) {
+
+    .metodologia{
+        padding: 3rem 1.5rem;
+
+
+    }
+    .metodologia__card {
+
+        flex-direction: row;
+    }
+
+    .metodologia__card--imagem {
+        width: 40vw;
+    }
+    
+}
