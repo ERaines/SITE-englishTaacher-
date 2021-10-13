@@ -41,3 +41,37 @@
 .vantagens__itens--textos {
     padding: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+
+    .vantagens {
+
+        background-image: linear-gradient(to bottom, #071224 0,#071224 80%, #FEFEFE 30%);
+
+    }
+
+    .vantagens__lista {
+        display: inline-flex;
+    }
+
+    .vantagens__itens{
+        margin: .50rem;
+        width: 30vw;
+        height: 35vw;
+    
+    }
+
+
+    .vantagens__itens--imagens {
+        width: 27vw;
+    }
+   
+
+}
+
+@media screen and (min-width: 1336px) {
+    .vantagens__itens{
+        height: 30vw;
+    }
+
+}
