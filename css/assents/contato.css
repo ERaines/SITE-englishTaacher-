@@ -1,0 +1,34 @@
+.contato {
+    color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1rem 1rem;
+    
+    width: 90vw;
+}
+
+.contato__input {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin: .50rem .50rem .50rem 0;
+}
+
+.contato__areaTexto {
+    width: 100%;
+    max-width: 600px;
+    margin-top: .50rem;
+}
+
+.contato__botao {
+    margin: 1rem 0;
+    width: 20%;
+    max-width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+    .contato {
+        margin: 3rem
+    }
+}

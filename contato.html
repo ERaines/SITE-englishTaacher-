@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/assents/reset.css">
+    <link rel="stylesheet" href="/css/assents/base.css">
+    <link rel="stylesheet" href="/css/assents/contato.css">
+    <link rel="stylesheet" href="/css/assents/cabecalho.css">
+    <link rel="stylesheet" href="/css/assents/rodape.css">
+</head>
+<body>
+    <header class="cabecalho container">
+        <img class="cabecalho__logo" src="/css/imagens/Logo.png" alt="Logo do site e voltar ao inicio">
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li class="cabecalho__itens"><a class="cabecalho__link" href="#">Descubra Vantagens</a></li>
+                <li class="cabecalho__itens"><a class="cabecalho__link" href="#">Conheça o Curso</a></li>
+                <li class="cabecalho__itens"><a class="cabecalho__link" href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form class="contato container">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="contato__input" required placeholder="Name">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="contato__input" required placeholder="seuemail@dominio.com">
+            <label for="telefone">Tell</label>
+            <input type="tel" id="tell" class="contato__input" required placeholder="(xx)xxxxx-xxxx">
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="menssage" class="contato__areaTexto" required></textarea>
+            <input type="submit" value="Send it" class="contato__botao">
+        </form>
+    </main>
+    <footer class="rodape container">
+        <ul class="rodape__sociais">
+            <li><img class="rodape__sociais--instagram" src="/css/imagens/imgInstagram.png" alt=""></li>
+            <li><img class="rodape__sociais--email" src="/css/imagens/imgEmail.png" alt=""></li>
+        </ul>
+        <div class="rodape__fimDaPagina">
+            <img src="/css/imagens/LogoRodape.png" alt="" class="rodape__logo">
+            <p class="rodape__copyright">&copy; Copyright Edson Raines - 2021</p>
+        </div>
+    </footer>
+</body>
+</html>
