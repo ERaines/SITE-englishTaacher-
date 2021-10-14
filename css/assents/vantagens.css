@@ -42,12 +42,17 @@
     padding: 1rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 
     .vantagens {
 
         background-image: linear-gradient(to bottom, #071224 0,#071224 80%, #FEFEFE 30%);
+        padding-top: 7%;
 
+    }
+
+    .vantagens__titulo {
+        margin-bottom: 1.5rem;
     }
 
     .vantagens__lista {

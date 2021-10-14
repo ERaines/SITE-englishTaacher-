@@ -9,7 +9,7 @@
 
 
 .chamada__imagem {
-    width: 350px;
+    width: 98%;
     margin: 1rem 0 1rem 0;
 }
 
@@ -41,9 +41,13 @@
     
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .chamada {
-        padding-top:  7%;
+        padding-top:  9%;
+    }
+
+    .chamada__imagem {
+        max-width: 460px;
     }
 
 }
