@@ -1,19 +1,16 @@
 .rodape {
-
     width: calc (100vw - 12%);
 
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .rodape__sociais {
-
     display: flex;
     padding: 1rem;
-    
+
 }
 
 .rodape__sociais--instagram {
@@ -31,7 +28,6 @@
     flex-direction: column;
     align-items: center;
     margin: .50rem;
-    
 }
 
 .rodape__logo {
