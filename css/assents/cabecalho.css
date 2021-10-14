@@ -21,9 +21,9 @@
 
 .cabecalho__itens {
     padding: .50rem 0 0 0;
+    display: none;
 
     color: #fefefe;
-    font-weight: 600;
     text-shadow: 0 0px 3px #FEFEFE;
 }
 
@@ -34,6 +34,7 @@
         width: 100%;
         flex-direction: row;
         justify-content: space-around; 
+        position: fixed;
     }
 
     .cabecalho__itens {

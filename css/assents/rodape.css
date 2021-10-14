@@ -40,6 +40,7 @@
 }
 
 .rodape__copyright {
-    color: #fefefe;
-    font-size: .75rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e1dfdf;
+    font-size: .50rem;
 }
