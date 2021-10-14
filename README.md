@@ -11,5 +11,8 @@ O site foi desenvolvido sem fremeworks, para estudo e melhor entendimento do uso
 
 <h3>Exemplo</h3>
 
+<p>Mobile</p>
 <img src="https://github.com/ERaines/SITE-englishTaacher-/blob/main/css/imagens/printMobile.png?raw=true" alt="print" width="300"/>
+
+<p> Desktop</p>
 <img src="https://github.com/ERaines/SITE-englishTaacher-/blob/main/css/imagens/printDesktop.png?" alt="print" width="700"/>
