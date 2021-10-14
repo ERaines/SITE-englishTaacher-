@@ -13,7 +13,7 @@
     color: #019DFF;
     font-family: 'Fredoka One', cursive;
     font-size: 1.25rem;
-    text-shadow: 0 0 7px #019DFF;
+    text-shadow: 0 0 6px #019DFF;
     text-align: center;
 
     margin: 2rem 1rem .50rem 1rem;
@@ -55,6 +55,7 @@
 
     .vantagens__titulo {
         margin-bottom: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .vantagens__lista {
@@ -67,6 +68,11 @@
         height: 30%;
     }
 
+    .vantagens__itens:hover {
+        transform: scale(1.1);
+        transition: 400ms;
+        cursor: pointer;
+    }
 
     .vantagens__itens--imagens {
         width: 27vw;

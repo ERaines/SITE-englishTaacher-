@@ -26,6 +26,8 @@
 }
 
 
+
+
 @media screen and (min-width: 1024px) {
     .cabecalho {
         width: 100%;
@@ -38,5 +40,12 @@
     .cabecalho__itens {
         display: inline-block;
         padding: 1rem;
+    }
+
+    .cabecalho__itens:hover {
+        transform: scale(1.1);
+        transition: 400ms;
+        cursor: pointer;
+        text-shadow: 0 1px 4px #FEFEFE;
     }
 }

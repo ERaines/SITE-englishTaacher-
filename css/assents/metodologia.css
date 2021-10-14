@@ -49,7 +49,7 @@
     text-align: center;
     font-size: 1rem;
     font-weight: 600;
-    text-shadow: 0 0 6px #019DFF;
+    text-shadow: 0 0 5px #019DFF;
 
     width: 50%;
     max-width: 350px;
@@ -71,7 +71,7 @@
     .metodologia{
         padding: 9.5% 1.5rem;
     }
-    
+
     .metodologia__card {
         flex-direction: row;
         width: 75vw;
@@ -79,5 +79,11 @@
 
     .metodologia__card--imagem {
         width: 30vw;
+    }
+
+    .metodologia__botao--contato:hover {
+        transform: scale(1.1);
+        transition: 400ms;
+        cursor: pointer;
     }
 }

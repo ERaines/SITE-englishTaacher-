@@ -17,7 +17,7 @@
     font-family: 'Fredoka One', cursive;
     font-size: 1.85rem;
     text-align: center;
-    text-shadow: 0 0 5px #019DFF;
+    text-shadow: 0 0 6px #019DFF;
 }
 
 .chamada__texto1 {
@@ -50,5 +50,10 @@
 
     .chamada__imagem {
         max-width: 460px;
+    }
+
+    .chamada__imagem:hover {
+        transform: scale(1.1);
+        transition: 400ms;
     }
 }
