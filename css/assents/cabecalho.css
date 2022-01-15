@@ -49,3 +49,11 @@
         text-shadow: 0 1px 4px #FEFEFE;
     }
 }
+
+@media screen and (min-width: 1600px){
+
+    .cabecalho__itens {
+        font-size: 1.5rem;
+    }
+
+}

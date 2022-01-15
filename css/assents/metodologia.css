@@ -81,9 +81,29 @@
         width: 30vw;
     }
 
+    .metodologia__botao--contato {
+        margin-top: 5rem;
+    }
+
     .metodologia__botao--contato:hover {
         transform: scale(1.1);
         transition: 400ms;
         cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .metodologia__card--titulo {
+        font-size: 2.5rem;
+    }
+
+    .metodologia__card--texto {
+        font-size: 1.75rem;
+    }
+
+    .metodologia__botao--contato {
+        max-width: 400px;
+        font-size: 1.75rem;
     }
 }

@@ -85,3 +85,19 @@
         height: 30vw;
     }
 }
+
+
+@media screen and (min-width: 1600px){
+
+    .vantagens__titulo {    
+        font-size: 3rem; 
+    }
+
+    .vantagens__itens--titulos {
+        font-size: 1.75rem;
+    }
+
+    .vantagens__itens--textos {
+        font-size: 1.25rem;
+    }
+}
