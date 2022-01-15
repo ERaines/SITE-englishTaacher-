@@ -23,19 +23,30 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <form class="contato container">
-            <label for="name">Name</label>
-            <input type="text" id="name" class="contato__input" required placeholder="Name">
-            <label for="email">Email</label>
-            <input type="email" id="email" class="contato__input" required placeholder="seuemail@dominio.com">
-            <label for="telefone">Tell</label>
-            <input type="tel" id="tell" class="contato__input" required placeholder="(xx)xxxxx-xxxx">
-            <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10" id="menssage" class="contato__areaTexto" required></textarea>
-            <input type="submit" value="Send it" class="contato__botao">
-        </form>
-    </main>
+    <section class="contato container">
+        <div>
+            <form>
+                <div class="contato__box">
+                    <label class="contato__box--label" for="name">Name</label>
+                    <input type="text" id="name" class="contato__box--input" required placeholder="Name">
+                </div>
+                <div class="contato__box">
+                    <label class="contato__box--label" for="email">Email</label>
+                    <input type="email" id="email" class="contato__box--input" required placeholder="seuemail@dominio.com">
+                </div>
+                <div class="contato__box">
+                    <label class="contato__box--label" for="telefone">Tell</label>
+                    <input type="tel" id="tell" class="contato__box--input" required
+                        pattern="^\(?\d{2}\)?[\s-]?[\s9]?\d{4}-?\d{4}$" placeholder="(xx)xxxxx-xxxx">
+                    <label class="contato__box--label contato" for="mensagem">O que você gostaria de perguntar?</label>
+                </div>
+                <div class="contato__box">
+                    <textarea cols="70" rows="10" id="menssage" class="contato__areaTexto" required></textarea>
+                    <input type="submit" value="Enviar" class="contato__botao">
+                </div>
+            </form>
+        </div>
+    </section>
     <footer class="rodape container">
         <ul class="rodape__sociais">
             <li><a href="/index.html"><img class="rodape__sociais--instagram" src="/css/imagens/imgInstagram.png" alt="logo Instagram"></a></li>
