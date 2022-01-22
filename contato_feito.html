@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Contato Feito</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap" rel="stylesheet">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/css/assents/contato.css">
     <link rel="stylesheet" href="/css/assents/cabecalho.css">
     <link rel="stylesheet" href="/css/assents/rodape.css">
+    <link rel="stylesheet" href="/css/assents/contatoFeito.css">
 </head>
 
 <body>
@@ -26,31 +27,13 @@
             </ul>
         </nav>
     </header>
-    <section class="contato container">
-        <div>
-            <form action="/contato_feito.html">
-                <div class="contato__box">
-                    <label class="contato__box--label" for="name">Name</label>
-                    <input type="text" id="name" class="contato__box--input" required placeholder="Name">
-                </div>
-                <div class="contato__box">
-                    <label class="contato__box--label" for="email">Email</label>
-                    <input type="email" id="email" class="contato__box--input" required
-                        placeholder="seuemail@dominio.com">
-                </div>
-                <div class="contato__box">
-                    <label class="contato__box--label" for="telefone">Tell</label>
-                    <input type="tel" id="tell" class="contato__box--input" required
-                        pattern="^\(?\d{2}\)?[\s-]?[\s9]?\d{4}-?\d{4}$" placeholder="(xx)xxxxx-xxxx">
-                    <label class="contato__box--label contato" for="mensagem">O que você gostaria de perguntar?</label>
-                </div>
-                <div class="contato__box">
-                    <textarea cols="70" rows="10" id="menssage" class="contato__areaTexto" required></textarea>
-                    <input type="submit" value="Enviar" class="contato__botao">
-                </div>
-            </form>
+    <section class="contatoFeito container">
+        <div class="contatoFeito__card">
+            <h2 class="contatoFeito__card--titulo" > Obrigado pelo Contato! </h2>
+            <p class="contatoFeito__card--texto"> Retornaremos em breve! </p>
         </div>
     </section>
+
     <footer class="rodape container">
         <ul class="rodape__sociais">
             <li><a href="/index.html"><img class="rodape__sociais--instagram" src="/css/imagens/imgInstagram.png"
@@ -65,5 +48,3 @@
         </div>
     </footer>
 </body>
-
-</html>

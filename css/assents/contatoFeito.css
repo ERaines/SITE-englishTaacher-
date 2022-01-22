@@ -1,0 +1,39 @@
+
+.contatoFeito {
+    color: #FEFEFE;
+    background-color:#FEFEFE;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10% 1rem 6% 1rem;
+    
+}
+
+.contatoFeito__card {
+    background:#071224;
+    width: 40vw;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 5px;
+    box-shadow: 0 15px 20px #071224;
+
+    color: #FEFEFE;
+    text-align: center;
+}
+
+.contatoFeito__card--titulo {
+    font-size: 1.5rem;
+}
+
+.contatoFeito__card--texto {
+    padding: 1rem;
+}
+
