@@ -5,10 +5,6 @@
 
 Para praticar e estudar o site está sendo desenvolvido com a idea de uso para um professor de ingles que queira dar aulas particulares, 
 
-<h3>Como foi desenvolvido</h3>
-
-O site foi desenvolvido sem fremeworks, para estudo e melhor entendimento do uso de CSS3 e HTML5 e suas estruturas.
-
 <h3>Exemplo</h3>
 
 <p>Mobile</p>
